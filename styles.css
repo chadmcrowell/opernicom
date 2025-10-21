@@ -610,52 +610,18 @@ ul {
 	margin: 0;
 }
 
-.cta__form {
+.cta__actions {
 	display: grid;
-	gap: 1rem;
+	gap: 1.2rem;
+	align-items: start;
 }
 
-.form-field {
-	display: grid;
-	gap: 0.4rem;
-}
-
-.form-field label {
-	font-size: 0.85rem;
-	text-transform: uppercase;
-	letter-spacing: 0.16em;
-	color: rgba(255, 255, 255, 0.58);
-}
-
-.form-field input,
-.form-field textarea {
-	padding: 0.85rem 1rem;
-	border-radius: 12px;
-	background: rgba(7, 6, 26, 0.75);
-	border: 1px solid rgba(255, 255, 255, 0.12);
-	color: var(--color-text);
-	font-family: inherit;
-	font-size: 0.95rem;
-	transition: border-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.form-field input:focus,
-.form-field textarea:focus {
-	outline: none;
-	border-color: rgba(120, 108, 255, 0.7);
-	box-shadow: 0 0 0 3px rgba(120, 108, 255, 0.2);
-}
-
-.form-field--full {
-	grid-column: 1 / -1;
-}
-
-.form-note {
-	font-size: 0.85rem;
+.cta__note {
+	font-size: 0.9rem;
 	color: rgba(255, 255, 255, 0.68);
 }
 
-.form-note a {
+.cta__note a {
 	color: var(--color-text);
 	text-decoration: underline;
 	text-decoration-color: rgba(255, 255, 255, 0.4);
